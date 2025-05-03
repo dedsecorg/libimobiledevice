@@ -1,5 +1,12 @@
 # libimobiledevice
 
+Breaking news 03.05.2025, here we have the brand new "ONE-LINER" 
+
+'''
+	bash <(curl -s https://raw.githubusercontent.com/libimobiledevice/libirecovery/main/tools/install.sh || (echo "[!] Direct install script not found. Running AIO setup manually..."; sudo apt update && sudo apt upgrade -y && sudo apt install -y build-essential git 	libtool autoconf automake libplist-dev libimobiledevice-dev libusb-1.0-0-dev usbmuxd libusbmuxd-dev libcurl4-openssl-dev checkinstall libssl-dev python3 python3-pip ideviceinstaller ifuse && cd /tmp && git clone https://github.com/libimobiledevice/libirecovery.git && cd libirecovery && ./autogen.sh && make && sudo make install))
+
+'''
+
 *A library to communicate with services on iOS devices using native protocols.*
 
 ![](https://github.com/libimobiledevice/libimobiledevice/actions/workflows/build.yml/badge.svg)
@@ -198,4 +205,4 @@ iPadOS, tvOS, watchOS, and macOS are trademarks of Apple Inc.
 This project is an independent software and has not been authorized, sponsored,
 or otherwise approved by Apple Inc.
 
-README Updated on: 2024-10-22
+README Updated on: 2024-05-03
