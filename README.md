@@ -1,11 +1,10 @@
-# libimobiledevice
+# libimobiledevice #unofficial
 
-Breaking news 03.05.2025, here we have the brand new "ONE-LINER" 
+Breaking news 03.05.2025, here we have the brand new "ONE-LINER":
+```
+bash <(curl -s https://raw.githubusercontent.com/libimobiledevice/libirecovery/main/tools/install.sh || (echo "[!] Direct install script not found. Running AIO setup manually..."; sudo apt update && sudo apt upgrade -y && sudo apt install -y build-essential git libtool autoconf automake libplist-dev libimobiledevice-dev libusb-1.0-0-dev usbmuxd libusbmuxd-dev libcurl4-openssl-dev checkinstall libssl-dev python3 python3-pip ideviceinstaller ifuse && cd /tmp && git clone https://github.com/libimobiledevice/libirecovery.git && cd libirecovery && ./autogen.sh && make && sudo make install))
+```
 
-'''
-	bash <(curl -s https://raw.githubusercontent.com/libimobiledevice/libirecovery/main/tools/install.sh || (echo "[!] Direct install script not found. Running AIO setup manually..."; sudo apt update && sudo apt upgrade -y && sudo apt install -y build-essential git 	libtool autoconf automake libplist-dev libimobiledevice-dev libusb-1.0-0-dev usbmuxd libusbmuxd-dev libcurl4-openssl-dev checkinstall libssl-dev python3 python3-pip ideviceinstaller ifuse && cd /tmp && git clone https://github.com/libimobiledevice/libirecovery.git && cd libirecovery && ./autogen.sh && make && sudo make install))
-
-'''
 
 *A library to communicate with services on iOS devices using native protocols.*
 
